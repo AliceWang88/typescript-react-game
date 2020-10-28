@@ -1,0 +1,25 @@
+
+.tip{
+    position: absolute;
+    left:50%;
+    top:0px;
+    transform:translateX(-50%);
+    text-align: center;
+    font-size:30px;
+}
+.tip .red{
+    color:#f40;
+}
+.tip .black{
+    color:#000;
+}
+.win,.equal {
+    padding:5px;
+    border:2px solid;
+    border-radius: 5px;
+}
+.equal {
+    color:rgb(114, 113, 113);
+}
+
+

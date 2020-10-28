@@ -1,0 +1,19 @@
+.box{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    outline:2px solid lightgray;
+    /* outline === box-sizing:border-box */
+}
+
+.box .chess-item{
+    width:80%;
+    height:80%;
+    border-radius: 50%;
+}
+.box .red{
+    background:radial-gradient(#fff,#f40);
+}
+.box .black{
+    background:radial-gradient(#fff,#000);
+}
